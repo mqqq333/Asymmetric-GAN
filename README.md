@@ -65,17 +65,14 @@ To get a local copy of **Asymmetric-GAN** up and running, follow these steps.
 4. **Run inference**
    ```bash
 	python eval_model.py
-```
-
-## ⚙️Preprocess
-
+   ```
+## ⚙️ Preprocess
 - Skull Stripping (BET)
 - Tissue Segmentation (FAST)
 - Spatial Normalization (FLIRT)
 - Grey Matter Masking (fslmaths)
 - (Optional) Hemisphere Processing
 Please refer to `process_single_subject.sh`. You can accelerate the process using GNU Parallel during execution.
-
 ## 🤝 Contributing
 
 We welcome contributions to **Asymmetric-GAN**! If you'd like to contribute, please follow the steps below:
@@ -85,6 +82,7 @@ We welcome contributions to **Asymmetric-GAN**! If you'd like to contribute, ple
 4. **Push to the branch** (`git push origin feature/your-feature-name`).
 5. **Open a pull request**.
 
+Please make sure to update tests as appropriate.
 
 ## 🐛 Issues
 
@@ -101,3 +99,4 @@ When reporting an issue, please include:
 ## 📜 License
 
 Distributed under the MIT License. See [License](/LICENSE) for more information.
+
