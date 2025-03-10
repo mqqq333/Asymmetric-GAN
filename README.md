@@ -72,6 +72,7 @@ To get a local copy of **Asymmetric-GAN** up and running, follow these steps.
 - Spatial Normalization (FLIRT)
 - Grey Matter Masking (fslmaths)
 - (Optional) Hemisphere Processing
+
 Please refer to `process_single_subject.sh`. You can accelerate the process using GNU Parallel during execution.
 ## 🤝 Contributing
 
