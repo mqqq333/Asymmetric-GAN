@@ -1,13 +1,11 @@
-
-
 <div align="center">
-<a href="https://github.com/mqqq333/LorewormGu" target="blank">
+<a href="https://github.com/mqqq333/Asymmetric-GAN" target="blank">
 <img src="./img/trans_480x480.png" width="480" height = "345" alt="Logo" />
 </a>
 
 <h2> Asymmetric-GAN: Hemispheric-Specific Brain Modeling and Analysis Based on Generative Adversarial Networks </h2>
 
-![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![](https://img.shields.io/badge/WandB-FF5B8E?style=for-the-badge&logo=wandb&logoColor=white) ![](https://img.shields.io/badge/FSL-FF5A5F?style=for-the-badge&logo=python&logoColor=white) ![](https://img.shields.io/badge/GNU%20Parallel-8E44AD?style=for-the-badge&logo=gnu&logoColor=white)
+![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white) ![](https://img.shields.io/badge/WandB-FF5B8E?style=for-the-badge&logo=wandb&logoColor=white) ![](https://img.shields.io/badge/FSL-FF5A5F?style=for-the-badge&logo=brain&logoColor=white) ![](https://img.shields.io/badge/GNU%20Parallel-8E44AD?style=for-the-badge&logo=gnu&logoColor=white)
 
 
 
@@ -35,6 +33,9 @@ Whether you're an emerging cognitive neuroscience researcher or an experienced A
 - **PyTorch**: Framework for building and training the **GAN-based model** for brain hemisphere analysis.
 - **FSL (FMRIB Software Library)**: Used for preprocessing neuroimaging data, including brain extraction and motion correction.
 - **WandB**: Tool for tracking experiments, visualizing metrics, and ensuring reproducibility during model training.
+## 📖 Sources and external API's
+- **FSL (FMRIB Software Library)**: Used for preprocessing neuroimaging data, including skull stripping, motion correction, and spatial normalization.
+- **WandB (Weights & Biases)**: Used for experiment tracking, visualization, and hyperparameter tuning during model training.
 
 ## 📦 Getting Started
 
@@ -73,6 +74,7 @@ To get a local copy of **Asymmetric-GAN** up and running, follow these steps.
 - Grey Matter Masking (fslmaths)
 - (Optional) Hemisphere Processing
 Please refer to `process_single_subject.sh`. You can accelerate the process using GNU Parallel during execution.
+
 ## 🤝 Contributing
 
 We welcome contributions to **Asymmetric-GAN**! If you'd like to contribute, please follow the steps below:
