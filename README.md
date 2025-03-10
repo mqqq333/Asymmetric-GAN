@@ -9,7 +9,7 @@
 
 
 
-<img src ="./demo/demo2.gif" width="100%" height = "500px">
+<img src ="./demo/demo2.gif" width="100%" height = "250px">
 </div>
 
 ## 💡 Overview
