@@ -66,6 +66,7 @@ To get a local copy of **Asymmetric-GAN** up and running, follow these steps.
    ```bash
 	python eval_model.py
 ```
+
 ## ⚙️Preprocess
 
 - Skull Stripping (BET)
